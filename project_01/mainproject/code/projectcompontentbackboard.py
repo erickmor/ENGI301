@@ -66,7 +66,7 @@ class Project():
     buzzer = None
     
     
-    def __init__(self, image="blinka.jpg",clk_pin=board.SCLK, miso_pin=board.MISO, mosi_pin=board.MOSI,
+    def __init__(self, image="button.jpg",clk_pin=board.SCLK, miso_pin=board.MISO, mosi_pin=board.MOSI,
                        cs_pin=board.P1_6, dc_pin=board.P1_4, reset_pin=board.P1_2,
                        baudrate=24000000, rotation=90, button="P2_2", limitswitch="P2_4",
                        potentiometer="P1_19", joystickx="P1_21", joysticky="P1_23", buzzer="P2_1"):
