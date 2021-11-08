@@ -38,7 +38,7 @@ Software API:
     - Provide i2c address for the display
     
     blank()
-      - Fills the display with black (i.e. color (0,0,0))
+      - Fill the display with black (i.e. color (0,0,0))
     
     fill(color)
       - Fills the display with the given (R, G, B) color tuple
