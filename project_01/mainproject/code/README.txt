@@ -37,7 +37,7 @@ into your device. This is due to the image files associated with the project.
 Once all files are in the same folder, the ./run function should run the code.
 To check, these are the files you need to have:
  - project.py
- - spi_screen.py (Library by Erik Welsh)
+ - spi_screen.py (Library by Erik Welsh) (Necessary to use SPI Display)
  - button.jpg
  - joystick.jpg
  - limitswitch.jpg
@@ -58,6 +58,7 @@ Operation Instructions
         - sudo crontab -e
         - @reboot sleep 30 && sh /var/lib/cloud9/ENGI301/project_01/mainproject/code/run > /var/lib/cloud9/ENGI301/project_01/mainproject/code/log/cronlog2>&1
             Note: Directory before run depends on directory where you store files
-            Note: Directory before log depends on directory where you store files 
+            Note: Directory before log depends on directory where you store files
+                - Need log file from github (Go to hackster)
     
     ii.) Change directory to location of game files and write ./run
