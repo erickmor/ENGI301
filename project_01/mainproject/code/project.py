@@ -62,6 +62,9 @@ Requirements
             - Needs to be able to start game by pressing button
             - Needs to be able to interact with all inputs
             
+Uses:
+    - spi_screen library developed by Erik Welsh
+            
 
 """
 
